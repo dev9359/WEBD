@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body
+{
+  overflow-x: hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962;
+  height: 100%;
+}
+
+.navbar-light{
+  color: #343a40;
+}
+.video-background{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.caption{
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  color: white;
+}
+.caption h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: .2rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem; 
+}
+.caption h3{
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1rem; 
+}
+.btn-lg{
+  border-width: medium;
+  border-radius: 0;
+  font-size: 1.1rem;
+}
+.icon-bar{
+  background:black;
+}
+.col-xs-6,.text-center {
+  margin: 2rem auto;
+  padding-top: 2rem;
+}
+/*============= COURSE SECTION =============*/
+
+.col-md-8 {
+  
+  /*padding-top: 1px;*/
+}
+.col-md-8 h1 {
+    font-size: 2.4rem;
+  }
+.btn-secondary {
+  border-width: medium;
+  border-radius: 0;
+  padding: .6rem 1.2rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin: 1rem;
+  border-color: #000000;
+  background-color: #000000;
+  color: white;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  border-color: #696969 ;
+  background-color: #696969 ;
+  color: white;
+}
+
+.carousel-inner .item a img {
+
+margin: auto;
+
+}
+
+.card-deck{
+padding: 20px;
+}
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: inherit;
+}
+
+.icon img:hover{
+  box-shadow: 3px 3px 5px blue;
+}
+.embed-responsive-100x400px{
+  padding-bottom: 400px;
+}
